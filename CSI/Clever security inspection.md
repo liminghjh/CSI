@@ -7,3 +7,14 @@
 5.使用环境版本
     langchain:1.2.7
     langchain-openai:1.1.7
+
+
+
+
+6.需要的改进
+    1.subprocess的平台编码问题
+    2.工具提示的skill
+    3.UI
+    4.没工具用时的shell=true的万能cmd
+    5.ollma的适配性问题
+    

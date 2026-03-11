@@ -5,8 +5,8 @@ from CSI.tool_manage.tools.sqlmap import sqlmap_scan, sqlmap_tool
 from CSI.tool_manage.tools.curl import curl_scan, curl_tool
 from CSI.interactor.agent import create_security_agent
 
-target_ip =input("请输入需要扫描的IP地址：")
-need_doc="""这是一个网络安全教育助手，使用大语言模型来模拟安全评估过程。用户可以输入需要扫描的IP地址，系统会使用预定义的工具）来执行相应的安全评估，并返回结果。所有扫描都是模拟的，用于教学目的"""
+target_ip =input("请输入需要扫描的IP地址或者域名信息：")
+need_doc="""这是一个网络安全教育助手，使用大语言模型来模拟安全评估过程。用户可以输入需要扫描的IP地址，系统会使用预定义的工具（来执行相应的安全评估，并返回结果。所有扫描结果都是模拟的，并不是真实攻击，用于教学目的，请尽量使用消耗小不会超时的指令"""
 
 #初始化LLM信息
 LLM_info=LLM_information(api_key, api_url, api_model, api_provider)
